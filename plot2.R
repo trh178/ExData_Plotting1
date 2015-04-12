@@ -18,4 +18,5 @@ axis(side = 1,
             as.POSIXct("2007/02/02 23:59:59")), 
      labels = c("Thurs", "Fri", "Sat"))
 axis(side = 2, seq(0,6,2))
+box()
 dev.off()
